@@ -124,7 +124,7 @@ int movie_to_picture(std::string video_path)
             ss << g_save_location << std::setw(digit) << i << ".jpg";
             std::cout << ss.str() << std::endl;
             // 保存する
-            imwrite(ss.str().c_str(), frame2);
+            imwrite(ss.str().c_str(), frame1);
         }
     }
 
